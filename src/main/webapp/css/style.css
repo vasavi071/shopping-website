@@ -1,0 +1,11 @@
+:root { --brand: #ffc107; }
+body { background: #f6f7f9; }
+.hero {
+  background: linear-gradient(120deg, #212529 0%, #343a40 55%, #ffc107 160%);
+}
+.product-card { transition: transform .15s ease, box-shadow .15s ease; border: 0; }
+.product-card:hover { transform: translateY(-4px); box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important; }
+.product-img { height: 180px; object-fit: cover; }
+.cart-thumb { width: 64px; height: 48px; object-fit: cover; }
+.qty-input { text-align: center; }
+.navbar .badge { position: relative; top: -2px; }
